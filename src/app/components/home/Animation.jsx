@@ -4,11 +4,12 @@ const AnimationComponent = () => {
     return (
         <div>
             <TypeAnimation
+                className="text-6xl"
                 style={{ whiteSpace: "pre-line" }}
                 preRenderFirstString={true}
                 sequence={[
                     500,
-                    `Welcome!\nI'm Yen`, // initially rendered starting point
+                    `Welcome!\nI'm Yen.`, // initially rendered starting point
                     1000,
                     `Welcome!\nI'm a web developer`,
                     1000,
