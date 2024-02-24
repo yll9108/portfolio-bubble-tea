@@ -26,15 +26,6 @@ function Header() {
                     {menuItem.map((menu) => (
                         <Menu key={menu.item} item={menu.item} />
                     ))}
-                    {/* <li>
-                        <a>[STORY] -about me</a>
-                    </li>
-                    <li>
-                        <a>Item 2</a>
-                    </li>
-                    <li>
-                        <a>Item 3</a>
-                    </li> */}
                 </ul>
             </div>
         </>
