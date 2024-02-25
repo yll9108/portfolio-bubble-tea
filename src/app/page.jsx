@@ -1,12 +1,14 @@
 "use client";
-import Image from "next/image";
+import Title from "./common/Title";
 import AnimationComponent from "./components/home/Animation";
-import Contact from "./common/Contact";
 
 export default function Home() {
     return (
         <>
-            <AnimationComponent />
+            <div className="flex flex-col">
+                <AnimationComponent />
+                <Title text="Let's walk with me to show you our menu :)" />
+            </div>
         </>
     );
 }

@@ -17,7 +17,7 @@ const AnimationComponent = () => {
                     1000,
                 ]}
                 speed={50}
-                repeat={Infinity}
+                repeat={1}
             />
         </div>
     );
