@@ -1,19 +1,14 @@
-import Image from "next/image";
+"use client";
+import Title from "./common/Title";
+import AnimationComponent from "./components/home/Animation";
 
 export default function Home() {
     return (
-        <div>hi</div>
-        // <ul className="menu bg-base-200 w-56 rounded-box">
-        //     <li className="menu-title">Title</li>
-        //     <li>
-        //         <a>Item 1</a>
-        //     </li>
-        //     <li>
-        //         <a>Item 2</a>
-        //     </li>
-        //     <li>
-        //         <a>Item 3</a>
-        //     </li>
-        // </ul>
+        <>
+            <div className="flex flex-col">
+                <AnimationComponent />
+                <Title text="Let's walk with me to show you our menu :)" />
+            </div>
+        </>
     );
 }

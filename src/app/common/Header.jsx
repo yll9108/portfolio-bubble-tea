@@ -1,19 +1,21 @@
 "use client";
 import React from "react";
 
-function Menu({ item }) {
+function Menu({ item, href }) {
     return (
         <li>
-            <a className="text-xl">{item}</a>
+            <a href={href} className="text-xl">
+                {item}
+            </a>
         </li>
     );
 }
 
 const menuItem = [
-    { item: "[HOME]" },
-    { item: "[STORY] - about me" },
-    { item: "[TEA] - projects" },
-    { item: "[ADD ONS] - skills" },
+    { item: "[HOME]", href: "/" },
+    { item: "[STORY]", href: "/story" },
+    { item: "[PROJECTS]", href: "/projects" },
+    { item: "[SKILLS]", href: "/skills" },
     { item: "[ORDER] - contact" },
 ];
 
@@ -24,17 +26,12 @@ function Header() {
                 <ul className="menu bg-primary w-60">
                     <li className="menu-title text-2xl ">MENU</li>
                     {menuItem.map((menu) => (
-                        <Menu key={menu.item} item={menu.item} />
+                        <Menu
+                            key={menu.item}
+                            item={menu.item}
+                            href={menu.href}
+                        />
                     ))}
-                    {/* <li>
-                        <a>[STORY] -about me</a>
-                    </li>
-                    <li>
-                        <a>Item 2</a>
-                    </li>
-                    <li>
-                        <a>Item 3</a>
-                    </li> */}
                 </ul>
             </div>
         </>
