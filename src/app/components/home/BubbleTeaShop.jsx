@@ -5,6 +5,14 @@ function BubbleTeaShop() {
     return (
         <>
             <div className="storeGrid">
+                <div className="flag"></div>
+                <div className="arrow1"></div>
+                <div className="arrow2"></div>
+                <div className="arrow3"></div>
+                <div className="arrow4"></div>
+                <div className="arrow5"></div>
+                <div className="arrow6"></div>
+                <div className="arrow7"></div>
                 <div className="stick1"></div>
                 <div className="stick2"></div>
                 <div className="stick3"></div>
