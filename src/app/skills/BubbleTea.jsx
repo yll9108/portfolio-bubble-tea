@@ -1,7 +1,5 @@
 import React from "react";
 import "./bubbletea.css";
-import { bubbleSkills } from "./bubbleSkills";
-import Image from "next/image";
 
 function BubbleTea() {
     return (

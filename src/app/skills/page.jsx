@@ -1,13 +1,17 @@
 import React from "react";
 import Title from "../common/Title";
 import BubbleTea from "./BubbleTea";
+import SkillIcon from "./SkillIcon";
 
 function Skills() {
     return (
         <>
-            <div className="flex flex-col w-1/3">
+            <div className="flex flex-col">
                 <Title text="Skill" />
-                <BubbleTea />
+                <div className="flex gap-4">
+                    <SkillIcon />
+                    <BubbleTea />
+                </div>
             </div>
         </>
     );
