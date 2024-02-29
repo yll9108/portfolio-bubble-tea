@@ -1,11 +1,10 @@
-.skillGird {
+/* .skillGird {
     height: 500px;
     width: 500px;
-    /* height: 80%;
-    width: 90%; */
+
     background-color: yellow;
-    list-style-type: none; /* 新增 */
-    padding: 0; /* 新增 */
+    list-style-type: none; 
+    padding: 0; 
 }
 
 .pearl {
@@ -99,4 +98,32 @@
 .pearl17 {
     grid-column: 4/5;
     grid-row: 18/19;
+} */
+
+.skills {
+    height: 500px;
+    width: 500px;
+    display: flex;
+}
+
+.skill-icon {
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 2%;
+    /* background-color: #9c6545;
+    border-radius: 50%; */
+
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.skill-icon img {
+    margin: 10px;
+    background-color: #9c6545;
+    border-radius: 50%;
+    width: 10%;
 }
