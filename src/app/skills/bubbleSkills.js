@@ -1,0 +1,22 @@
+export const bubbleSkills = [
+    { src: "bootstrap-fill-svgrepo-com.svg", alt: "bootstrap" },
+    { src: "css-3-svgrepo-com.svg", alt: "css" },
+    { src: "express-svgrepo-com.svg", alt: "express" },
+    { src: "figma-svgrepo-com.svg", alt: "figma" },
+    { src: "git-svgrepo-com.svg", alt: "git" },
+    { src: "html-5-svgrepo-com.svg", alt: "html" },
+    { src: "jquery-svgrepo-com.svg", alt: "jQuery" },
+    { src: "js-svgrepo-com.svg", alt: "js" },
+    { src: "mongo-svgrepo-com.svg", alt: "mongoDB" },
+    { src: "nextjs-fill-svgrepo-com.svg", alt: "next" },
+    { src: "node-js-svgrepo-com.svg", alt: "node" },
+    { src: "postgresql-svgrepo-com.svg", alt: "postgresql" },
+    {
+        src: "react-javascript-js-framework-facebook-svgrepo-com.svg",
+        alt: "react",
+    },
+    { src: "sass-svgrepo-com.svg", alt: "sass" },
+    { src: "styled-components-svgrepo-com.svg", alt: "styled-components" },
+    { src: "tailwind-svgrepo-com.svg", alt: "tailwind" },
+    { src: "typescript-svgrepo-com.svg", alt: "ts" },
+];
