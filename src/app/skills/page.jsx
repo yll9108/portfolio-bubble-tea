@@ -1,7 +1,7 @@
 import React from "react";
 import Title from "../common/Title";
-import BubbleTea from "./BubbleTea";
-import SkillIcon from "./SkillIcon";
+import BubbleTea from "../components/skills/BubbleTea";
+import SkillIcon from "../components/skills/SkillIcon";
 
 function Skills() {
     return (
