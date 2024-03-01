@@ -17,10 +17,13 @@ export default function Home() {
                
                 </div>
             </div> */}
-            <div className="flex w-3/5 m-auto gap-5">
+            <div className="container flex w-3/5 m-auto gap-5">
                 <div className="flex flex-col">
                     <AnimationComponent />
-                    <Title text="Let's walk with me to show you our menu :)" />
+                    <p className="pb-4">
+                        Coding is like crafting bubble tea; adding more pearls
+                        enriches the blend. Code diligently, master your craft.
+                    </p>
                     <div className="sm:hidden">
                         {/* 在小尺寸下顯示 */}
                         <BubbleTeaShop />

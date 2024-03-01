@@ -2,16 +2,14 @@ import { TypeAnimation } from "react-type-animation";
 
 const AnimationComponent = () => {
     return (
-        <div>
+        <div className="min-h-20 sm:min-h-32">
             <TypeAnimation
-                className="text-3xl"
+                className="text-2xl sm:text-6xl"
                 style={{ whiteSpace: "pre-line" }}
                 preRenderFirstString={true}
                 sequence={[
-                    500,
-                    `Hello! I'm Yen.`, // initially rendered starting point
                     1000,
-                    `Hello! I'm Yen.\nWeb developer`,
+                    `Hello! I'm Yen.\nWeb developer!`,
                     1000,
                     `Hello! I'm Yen.\nBubble tea lover!`,
                     1000,
