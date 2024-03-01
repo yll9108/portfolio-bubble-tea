@@ -16,7 +16,7 @@ const menuItem = [
     { item: "[STORY]", href: "/story" },
     { item: "[PROJECTS]", href: "/projects" },
     { item: "[SKILLS]", href: "/skills" },
-    { item: "[ORDER] - contact" },
+    { item: "[ORDER]" },
 ];
 
 function Header() {
