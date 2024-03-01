@@ -2,7 +2,7 @@ import React from "react";
 
 function Introduction() {
     return (
-        <div className="text-justify text-xl">
+        <div className="text-justify text-lg sm:text-xl">
             {" "}
             I'm Yen from Taiwan, used to be a logistic assistance. During COVID,
             our government released a system let us check masks inventory. That
