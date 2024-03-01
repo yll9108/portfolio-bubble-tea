@@ -9,15 +9,15 @@ const AnimationComponent = () => {
                 preRenderFirstString={true}
                 sequence={[
                     500,
-                    `Welcome!\nI'm Yen.`, // initially rendered starting point
+                    `Hello!\nI'm\nYen.`, // initially rendered starting point
                     1000,
-                    `Welcome!\nI'm a web developer`,
+                    `Hello!\nI'm a\nweb developer`,
                     1000,
-                    `Welcome!\nI'm a bubble tea lover!`,
+                    `Hello!\nI'm a\nbubble tea lover!`,
                     1000,
                 ]}
                 speed={50}
-                repeat={1}
+                repeat={5}
             />
         </div>
     );
