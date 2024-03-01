@@ -1,7 +1,7 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
-import Header from "./common/Header";
 import Contact from "./common/Contact";
+import { HeaderLG, HeaderSmall } from "./common/Header";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -14,8 +14,13 @@ export default function RootLayout({ children }) {
     return (
         <html lang="en">
             <body className={inter.className}>
-                <div className="flex">
-                    <Header />
+                <div className="md:flex">
+                    <div className="hidden md:block">
+                        <HeaderLG />
+                    </div>
+                    <div className="sm:block md:hidden">
+                        <HeaderSmall />
+                    </div>
                     {children}
                     <Contact />
                 </div>
