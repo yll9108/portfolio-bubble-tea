@@ -6,23 +6,20 @@ import {
     faSquareInstagram,
 } from "@fortawesome/free-brands-svg-icons";
 
-function ProjectCard({ demo, name, description, href }) {
+function ProjectCard({ image, demo, name, description, href }) {
     return (
         <>
-            <div className="card w-96 bg-base-100 shadow-xl">
-                <figure className="px-10 pt-10">
-                    <iframe src={demo} />
+            <div className="card bg-base-100 shadow-xl w-3/4">
+                <figure>
+                    <img src={image} />
                 </figure>
-                <div className="card-body items-center text-center">
+                <div className="card-body">
                     <h2 className="card-title">{name}</h2>
                     <p>{description}</p>
                     {/* <div className="card-actions"></div> */}
-                    <div className="card-actions">
+                    <div className="card-actions justify-end">
                         <a href={href}>
-                            <FontAwesomeIcon
-                                icon={faGithub}
-                                className=" w-10"
-                            />
+                            <FontAwesomeIcon icon={faGithub} className="w-10" />
                         </a>
                     </div>
                 </div>

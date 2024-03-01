@@ -7,13 +7,13 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 function Projects() {
     return (
         <>
-            <div className="flex flex-col w-4/5 m-auto space-y-2">
+            <div className="flex flex-col w-4/5">
                 <Title text="[projects]" />
-                <div className="flex flex-wrap gap-2">
+                <div className="flex flex-wrap gap-5 justify-center">
                     {projectDetail.map((project) => (
                         <ProjectCard
                             key={project.name}
-                            demo={project.demo}
+                            image={project.image}
                             name={project.name}
                             description={project.description}
                             href={project.href}
