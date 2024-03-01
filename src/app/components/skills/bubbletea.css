@@ -1,0 +1,78 @@
+.bubbleTeaGrid {
+    height: 500px;
+    width: 500px;
+    /* height: 80%;
+    width: 90%; */
+    background-color: lightblue;
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+    grid-template-rows: repeat(17, 1fr);
+}
+
+.cup {
+    background-color: white;
+    grid-column: 4/14;
+    grid-row: 6/17;
+    border-radius: 0 0 3rem 3rem;
+    background: linear-gradient(
+        300deg,
+        rgba(241, 199, 171, 1) 0%,
+        rgba(252, 227, 209, 1) 62%,
+        rgba(242, 200, 173, 1) 100%
+    );
+    transform: perspective(2em) rotateX(-1deg);
+    box-shadow: 0 0.3rem 0 0.4rem #f6f6f8;
+}
+
+.lid {
+    background-color: #5d3e2a;
+    grid-column: 3/15;
+    grid-row: 4/5;
+    border-radius: 50%;
+    position: relative;
+    top: 50%;
+    box-shadow: 0 0.1rem 0 0.4rem #f6f6f8;
+}
+/* 
+.cupShadow {
+    height: 96%;
+    background: #f6f6f8;
+    opacity: 0.4;
+    grid-column: 6/8;
+    grid-row: 6/18;
+    transform: perspective(2em) rotateX(-2deg);
+} */
+
+.straw {
+    width: 130%;
+    background: linear-gradient(
+        90deg,
+        rgba(124, 82, 58, 1) 30%,
+        rgba(187, 132, 100, 1) 80%,
+        rgba(124, 82, 58, 1) 95%
+    );
+    grid-column: 10/11;
+    grid-row: 1/5;
+    position: relative;
+    z-index: 1;
+    transform: perspective(1rem) rotateX(1deg) rotate(10deg);
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    border-width: 0.5rem;
+    border-style: solid;
+    border-color: #5d3e2a;
+    border-radius: 50%;
+    grid-column: 6/12;
+    grid-row: 7/12;
+    z-index: 1;
+    opacity: 0.8;
+}
+
+span {
+    color: green;
+}

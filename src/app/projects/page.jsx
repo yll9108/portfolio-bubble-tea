@@ -1,12 +1,25 @@
 import React from "react";
 import Title from "../common/Title";
+import ProjectCard from "../components/projects/ProjectCard";
+import { projectDetail } from "../components/projects/projectDetails";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function Projects() {
     return (
         <>
-            <div>
+            <div className="flex flex-col w-4/5">
                 <Title text="[projects]" />
-                <Title text="lorem loremloremloremloremlorem" />
+                <div className="flex flex-wrap gap-5 justify-center">
+                    {projectDetail.map((project) => (
+                        <ProjectCard
+                            key={project.name}
+                            image={project.image}
+                            name={project.name}
+                            description={project.description}
+                            href={project.href}
+                        />
+                    ))}
+                </div>
             </div>
         </>
     );
