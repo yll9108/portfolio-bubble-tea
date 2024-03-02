@@ -6,7 +6,7 @@ import SkillIcon from "../components/skills/SkillIcon";
 function Skills() {
     return (
         <>
-            <div className="flex flex-col">
+            <div className="flex m-auto flex-col">
                 <Title text="Skill" />
                 <div className="flex gap-4">
                     <SkillIcon />
