@@ -15,7 +15,7 @@ export default function RootLayout({ children }) {
         <html lang="en">
             <body className={inter.className}>
                 <div className="md:flex">
-                    <div className="hidden sm:block">
+                    <div className="hidden sm:block h-full">
                         <HeaderLG />
                     </div>
                     <div className="sm:block md:hidden">

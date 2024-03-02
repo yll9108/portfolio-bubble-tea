@@ -22,8 +22,8 @@ const menuItem = [
 export function HeaderLG() {
     return (
         <>
-            <div className="flex h-screen">
-                <ul className="menu bg-primary w-60">
+            <div className="flex">
+                <ul className="menu bg-primary w-60 h-screen">
                     <li className="menu-title text-2xl ">MENU</li>
                     {menuItem.map((menu) => (
                         <Menu
