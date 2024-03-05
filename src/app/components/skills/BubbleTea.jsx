@@ -19,10 +19,19 @@ function BubbleTea() {
                     <img key={skill.alt} src={skill.src} alt={skill.alt} />
                 </div>
             ))}
-            <div className="pearl pearl18"></div>
+            {Array(4)
+                .fill()
+                .map((_, index) => (
+                    <div
+                        className={`pearl pearl${index + 18}`}
+                        key={index}
+                    ></div>
+                ))}
+
+            {/* <div className="pearl pearl18"></div>
             <div className="pearl pearl19"></div>
             <div className="pearl pearl20"></div>
-            <div className="pearl pearl21"></div>
+            <div className="pearl pearl21"></div> */}
         </div>
     );
 }
