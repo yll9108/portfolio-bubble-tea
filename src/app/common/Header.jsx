@@ -4,7 +4,7 @@ import React from "react";
 function Menu({ item, href }) {
     return (
         <li>
-            <a href={href} className="text-xl text-secondary">
+            <a href={href} className="text-xl sm:text-secondary">
                 {item}
             </a>
         </li>
@@ -43,7 +43,7 @@ export function HeaderLG() {
 export function HeaderSmall() {
     return (
         <>
-            <div className="navbar bg-primary w-100 mb-10 text-secondary">
+            <div className="navbar bg-primary w-100 mb-10 sm:text-secondary">
                 <div className="flex-1 px-2  lg:flex-none">
                     <a className="text-lg font-bold">Yen's</a>
                 </div>
