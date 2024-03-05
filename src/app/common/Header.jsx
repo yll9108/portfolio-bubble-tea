@@ -16,7 +16,7 @@ const menuItem = [
     { item: "[STORY]", href: "/story" },
     { item: "[PROJECTS]", href: "/projects" },
     { item: "[SKILLS]", href: "/skills" },
-    { item: "[ORDER]" },
+    { item: "[POST]", href: "/post" },
 ];
 
 export function HeaderLG() {
