@@ -4,7 +4,7 @@ import React from "react";
 function Menu({ item, href }) {
     return (
         <li>
-            <a href={href} className="text-xl">
+            <a href={href} className="text-xl text-secondary">
                 {item}
             </a>
         </li>
@@ -24,7 +24,9 @@ export function HeaderLG() {
         <>
             <div className="flex">
                 <ul className="menu bg-primary w-60 h-screen">
-                    <li className="menu-title text-2xl ">MENU</li>
+                    <li className="menu-title text-2xl text-secondary ">
+                        MENU
+                    </li>
                     {menuItem.map((menu) => (
                         <Menu
                             key={menu.item}
@@ -41,7 +43,7 @@ export function HeaderLG() {
 export function HeaderSmall() {
     return (
         <>
-            <div className="navbar bg-base-300 w-100 mb-10">
+            <div className="navbar bg-primary w-100 mb-10 text-secondary">
                 <div className="flex-1 px-2  lg:flex-none">
                     <a className="text-lg font-bold">Yen's</a>
                 </div>
