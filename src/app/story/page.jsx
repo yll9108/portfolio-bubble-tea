@@ -5,7 +5,7 @@ import Title from "../common/Title";
 
 function Story() {
     return (
-        <div className="flex flex-col w-3/5 m-auto space-y-5">
+        <div className="flex flex-col w-3/5 justify-center m-auto space-y-5">
             <Title text="[Story]" />
             <Profile />
             <Introduction />
