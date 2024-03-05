@@ -51,10 +51,10 @@
         rgba(187, 132, 100, 1) 80%,
         rgba(124, 82, 58, 1) 95%
     );
-    grid-column: 13/14;
-    grid-row: 1/5;
+    grid-column: 10/11;
+    grid-row: 2/5;
     position: relative;
-    z-index: 1;
+    z-index: 10;
     transform: perspective(1rem) rotateX(1deg) rotate(10deg);
 }
 
@@ -227,7 +227,7 @@
 
 @media only screen and (max-width: 600px) {
     .bubbleTeaGrid {
-        height: 400px;
-        width: 280px;
+        height: 600px;
+        width: 300px;
     }
 }

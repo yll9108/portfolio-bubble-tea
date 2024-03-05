@@ -6,7 +6,7 @@ import BubbleTea from "../components/skills/BubbleTea";
 function Skills() {
     return (
         <>
-            <div className="flex m-auto flex-col">
+            <div className="flex flex-col justify-center items-center sm:m-auto">
                 <Title text="Skill" />
                 {/* <div className="flex gap-4"> */}
                 {/* <SkillIcon /> */}
