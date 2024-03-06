@@ -2,7 +2,7 @@ import React from "react";
 
 function Introduction() {
     return (
-        <div className="text-justify text-lg sm:text-xl">
+        <div className="text-justify text-base sm:text-xl">
             {" "}
             Thank you for visiting my portfolio. I'm Yen. I have experience as
             an international sales professional for 1 year and as a logistic

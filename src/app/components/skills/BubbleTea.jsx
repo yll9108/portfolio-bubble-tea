@@ -16,7 +16,12 @@ function BubbleTea() {
             </div> */}
             {bubbleSkills.map((skill, index) => (
                 <div className={`pearl pearl${index + 1}`} key={index}>
-                    <img key={skill.alt} src={skill.src} alt={skill.alt} />
+                    <img
+                        className="fill-blue-500 transform hover:scale-150"
+                        key={skill.alt}
+                        src={skill.src}
+                        alt={skill.alt}
+                    />
                 </div>
             ))}
             {Array(4)
