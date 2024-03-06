@@ -17,7 +17,7 @@ function BubbleTeaShop() {
                 <div className="stick2"></div>
                 <div className="stick3"></div>
                 <div className="stick4"></div>
-                <div className="signboard">BUBBLE TEA</div>
+                <div className="signboard">BOBA SHOP</div>
                 <div className="plate1"></div>
                 <div className="plate2"></div>
                 <div className="plate3"></div>
