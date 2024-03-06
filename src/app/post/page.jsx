@@ -16,9 +16,11 @@ function page() {
                             <div className="card-body">
                                 <p>Explain ESLint and Prettier</p>
                                 <div className="card-actions justify-end">
-                                    <button className="btn btn-primary">
-                                        Check it out!
-                                    </button>
+                                    <a href="https://www.instagram.com/p/C3oyPtevB2E/?utm_source=ig_web_copy_link">
+                                        <button className="btn bg-primary text-secondary">
+                                            Check it out!
+                                        </button>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -32,9 +34,11 @@ function page() {
                             <div className="card-body">
                                 <p>Introduce fast way killing port</p>
                                 <div className="card-actions justify-end">
-                                    <button className="btn btn-primary">
-                                        Check it out!
-                                    </button>
+                                    <a href="https://www.instagram.com/p/C367VWsvJ1w/?utm_source=ig_web_copy_link">
+                                        <button className="btn bg-primary text-secondary">
+                                            Check it out!
+                                        </button>
+                                    </a>
                                 </div>
                             </div>
                         </div>

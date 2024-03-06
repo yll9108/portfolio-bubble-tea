@@ -11,7 +11,7 @@ function Contact() {
                         <FontAwesomeIcon
                             key={icon.icon}
                             icon={icon.icon}
-                            className="w-16 h-10"
+                            className="w-16 h-10 transform hover:scale-150"
                         />
                     </a>
                 ))}
