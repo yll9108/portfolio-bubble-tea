@@ -17,7 +17,7 @@ export default function Home() {
                
                 </div>
             </div> */}
-            <div className="container flex w-3/5 m-auto gap-5">
+            <div className="container flex w-3/5 m-auto gap-2">
                 <div className="flex flex-col">
                     <AnimationComponent />
                     <p className="pb-4">
@@ -29,7 +29,7 @@ export default function Home() {
                         <BubbleTeaShop />
                     </div>
                 </div>
-                <div className="hidden sm:flex">
+                <div className="hidden sm:flex sm:sticky top-0">
                     {/* 在小尺寸下隱藏，在大尺寸下顯示 */}
                     <BubbleTeaShop />
                 </div>

@@ -22,19 +22,21 @@ const menuItem = [
 export function HeaderLG() {
     return (
         <>
-            <div className="flex">
-                <ul className="menu bg-primary w-60 h-screen">
-                    <li className="menu-title text-2xl text-secondary ">
-                        MENU
-                    </li>
-                    {menuItem.map((menu) => (
-                        <Menu
-                            key={menu.item}
-                            item={menu.item}
-                            href={menu.href}
-                        />
-                    ))}
-                </ul>
+            <div className="sticky left-0">
+                <div className="flex">
+                    <ul className="menu bg-primary w-60 h-screen">
+                        <li className="menu-title text-2xl text-secondary ">
+                            MENU
+                        </li>
+                        {menuItem.map((menu) => (
+                            <Menu
+                                key={menu.item}
+                                item={menu.item}
+                                href={menu.href}
+                            />
+                        ))}
+                    </ul>
+                </div>
             </div>
         </>
     );
