@@ -278,10 +278,14 @@ red-filter {
 
 @media only screen and (max-width: 600px) {
     .bubbleTeaGrid {
-        height: 600px;
+        height: 360px;
         width: 300px;
     }
 }
+/* 6:5
+
+360:300
+600 : 500  */
 
 /* .skills {
     height: 500px;
