@@ -4,7 +4,7 @@ import icons from "./contactInfo";
 
 function Contact() {
     return (
-        <div className="flex flex-col">
+        <div className="flex flex-row sm:flex-col">
             <div className="sticky top-48">
                 {/* <div className="flex flex-col gap-5 absolute top-1/3 right-5"> */}
                 {icons.map((icon) => (

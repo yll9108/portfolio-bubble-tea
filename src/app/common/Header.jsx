@@ -1,5 +1,6 @@
 "use client";
 import React from "react";
+import Contact from "./Contact";
 
 function Menu({ item, href }) {
     return (
@@ -49,6 +50,7 @@ export function HeaderSmall() {
                 <div className="flex-1 px-2  lg:flex-none">
                     <a className="text-lg font-bold">Yen's</a>
                 </div>
+                <Contact />
                 <div className="flex justify-end flex-1 px-2">
                     <div className="flex items-stretch">
                         {/* <a className="btn btn-ghost rounded-btn">Button</a> */}

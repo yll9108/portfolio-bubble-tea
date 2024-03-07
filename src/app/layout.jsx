@@ -14,7 +14,7 @@ export default function RootLayout({ children }) {
     return (
         <html lang="en">
             <body className={exo_2.className}>
-                <div className="md:flex">
+                <div className="sm:flex">
                     <div className="hidden sm:block h-full">
                         <HeaderLG />
                     </div>
@@ -22,7 +22,9 @@ export default function RootLayout({ children }) {
                         <HeaderSmall />
                     </div>
                     {children}
-                    <Contact />
+                    <div className="hidden sm:block">
+                        <Contact />
+                    </div>
                 </div>
             </body>
         </html>
