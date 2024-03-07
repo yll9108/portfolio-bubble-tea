@@ -5,7 +5,7 @@ import { faGithub } from "@fortawesome/free-brands-svg-icons";
 function ProjectCard({ image, demo, name, description, href }) {
     return (
         <>
-            <div className="card bg-base-100 shadow-xl sm:w-3/4 transform hover:scale-125">
+            <div className="card bg-base-100 shadow-xl sm:w-3/4 transform hover:scale-110">
                 <figure>
                     <img src={image} />
                 </figure>
@@ -19,6 +19,9 @@ function ProjectCard({ image, demo, name, description, href }) {
                                     className="w-7"
                                 />
                             </a>
+                            {/* <a href= "add your link"> */}
+                            <img src="demo.png" className="w-7" />
+                            {/* </a> */}
                         </div>
                     </div>
                     <p>{description}</p>

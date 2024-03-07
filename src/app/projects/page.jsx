@@ -9,7 +9,7 @@ function Projects() {
         <>
             <div className="flex flex-col justify-center sm:mt-20 mx-auto w-2/3 space-y-5">
                 <Title text="[projects]" />
-                <div className="flex flex-wrap gap-5 justify-center">
+                <div className="flex flex-wrap gap-10 justify-center">
                     {projectDetail.map((project) => (
                         <ProjectCard
                             key={project.name}
