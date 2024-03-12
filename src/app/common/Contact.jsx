@@ -10,7 +10,7 @@ function Contact() {
                     <FontAwesomeIcon
                         key={index}
                         icon={icon.icon}
-                        className="transform hover:scale-150 my-2 bg-red-200"
+                        className="h-10 transform hover:scale-150 my-2 bg-red-200"
                     />
                 </a>
             ))}
