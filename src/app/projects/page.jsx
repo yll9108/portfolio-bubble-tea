@@ -8,7 +8,7 @@ function Projects() {
     return (
         <>
             <div className="flex flex-col justify-center sm:mt-20 mx-auto w-2/3 space-y-5">
-                <Title text="[projects]" />
+                <Title text="[PROJECTS]" />
                 <div className="flex flex-wrap gap-10 justify-center">
                     {projectDetail.map((project) => (
                         <ProjectCard

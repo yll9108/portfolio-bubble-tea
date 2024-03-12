@@ -6,7 +6,7 @@ function page() {
         <>
             <div className="flex flex-col justify-center sm:m-auto">
                 {/* <div className="m-auto">POST</div> */}
-                <Title text="Post" />
+                <Title text="[POST]" />
                 <div className="w-3/5 m-auto">
                     <div className="md:flex gap-3">
                         <div className="card card-compact bg-base-100 shadow-xl">
