@@ -1,0 +1,11 @@
+.skillListContainer {
+    height: 400px;
+    width: 300px;
+}
+
+@media only screen and (max-width: 600px) {
+    .skillListContainer {
+        height: 400px;
+        width: 300px;
+    }
+}

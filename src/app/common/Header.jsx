@@ -1,5 +1,6 @@
 "use client";
 import React from "react";
+import Contact from "./Contact";
 
 function Menu({ item, href }) {
     return (
@@ -22,19 +23,21 @@ const menuItem = [
 export function HeaderLG() {
     return (
         <>
-            <div className="flex">
-                <ul className="menu bg-primary w-60 h-screen">
-                    <li className="menu-title text-2xl text-secondary ">
-                        MENU
-                    </li>
-                    {menuItem.map((menu) => (
-                        <Menu
-                            key={menu.item}
-                            item={menu.item}
-                            href={menu.href}
-                        />
-                    ))}
-                </ul>
+            <div className="sticky top-0">
+                <div className="flex">
+                    <ul className="menu bg-primary w-60 h-screen">
+                        <li className="menu-title text-2xl text-secondary ">
+                            MENU
+                        </li>
+                        {menuItem.map((menu) => (
+                            <Menu
+                                key={menu.item}
+                                item={menu.item}
+                                href={menu.href}
+                            />
+                        ))}
+                    </ul>
+                </div>
             </div>
         </>
     );
@@ -47,6 +50,7 @@ export function HeaderSmall() {
                 <div className="flex-1 px-2  lg:flex-none">
                     <a className="text-lg font-bold">Yen's</a>
                 </div>
+
                 <div className="flex justify-end flex-1 px-2">
                     <div className="flex items-stretch">
                         {/* <a className="btn btn-ghost rounded-btn">Button</a> */}

@@ -4,7 +4,7 @@ import { bubbleSkills } from "./bubbleSkills";
 
 function BubbleTea() {
     return (
-        <div className="bubbleTeaGrid">
+        <div className="bubbleTeaGrid animated-grid">
             <div className="cup"></div>
             <div className="cupShadow"></div>
             <div className="lid"></div>

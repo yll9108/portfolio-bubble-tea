@@ -17,7 +17,7 @@ export default function Home() {
                
                 </div>
             </div> */}
-            <div className="container flex w-3/5 m-auto gap-5">
+            <div className="container flex w-3/5 m-auto gap-2">
                 <div className="flex flex-col">
                     <AnimationComponent />
                     <p className="pb-4">
