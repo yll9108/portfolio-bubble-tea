@@ -14,12 +14,11 @@ export default function RootLayout({ children }) {
     return (
         <html lang="en">
             <body className={exo_2.className}>
-                {/* <div className="h-full"> */}
                 <div className="sm:flex">
                     <div className="hidden sm:block">
                         <HeaderLG />
                     </div>
-                    {/* <div className="sm:block md:hidden"> */}
+
                     <div className="sm:hidden">
                         <HeaderSmall />
                     </div>
@@ -28,7 +27,6 @@ export default function RootLayout({ children }) {
                         <Contact />
                     </div>
                 </div>
-                {/* </div> */}
             </body>
         </html>
     );

@@ -53,7 +53,6 @@ export function HeaderSmall() {
 
                 <div className="flex justify-end flex-1 px-2">
                     <div className="flex items-stretch">
-                        {/* <a className="btn btn-ghost rounded-btn">Button</a> */}
                         <div className="dropdown dropdown-end">
                             <div
                                 tabIndex={0}

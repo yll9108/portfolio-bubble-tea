@@ -2,7 +2,6 @@ import React from "react";
 import Title from "../common/Title";
 import ProjectCard from "../components/projects/ProjectCard";
 import { projectDetail } from "../components/projects/projectDetails";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function Projects() {
     return (
