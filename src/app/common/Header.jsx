@@ -23,7 +23,7 @@ const menuItem = [
 export function HeaderLG() {
     return (
         <>
-            <div className="sticky left-0">
+            <div className="sticky top-0">
                 <div className="flex">
                     <ul className="menu bg-primary w-60 h-screen">
                         <li className="menu-title text-2xl text-secondary ">

@@ -29,7 +29,7 @@ export default function Home() {
                         <BubbleTeaShop />
                     </div>
                 </div>
-                <div className="hidden sm:flex sm:sticky top-0">
+                <div className="hidden sm:flex">
                     {/* 在小尺寸下隱藏，在大尺寸下顯示 */}
                     <BubbleTeaShop />
                 </div>
