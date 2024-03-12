@@ -20,7 +20,7 @@ export default function Home() {
             <div className="container flex w-3/5 m-auto gap-2">
                 <div className="flex flex-col">
                     <AnimationComponent />
-                    <p className="pb-4">
+                    <p className="text-justify text-base sm:text-xl pb-4">
                         Coding is like crafting bubble tea; adding more pearls
                         enriches the blend. Code diligently, master your craft.
                     </p>

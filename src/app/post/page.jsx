@@ -9,7 +9,8 @@ function page() {
                 <Title text="[POST]" />
                 <div className="w-3/5 m-auto">
                     {/* <p className="w-3/5 m-auto"> */}
-                    <p className="mb-3">
+                    {/* <div className="text-justify text-base sm:text-xl"></div> */}
+                    <p className="text-justify text-base sm:text-xl mb-3">
                         As a newbie in the coding world, I got lots of help from
                         others that really boosted my learning curve. Feeling
                         inspired, I decided to pay it forward and start writing
