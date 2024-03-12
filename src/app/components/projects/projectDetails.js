@@ -10,17 +10,24 @@ export const projectDetail = [
     {
         image: "fridgefy.png",
         demo: "https://frigefy-final-project.vercel.app/",
-        name: "TinyLink",
+        name: "Frigefy",
         description:
             "A web app allows users to shorten long URLs and be able to save or edit it.",
-        href: "https://github.com/yll9108/TinyLink",
+        href: "https://github.com/yll9108/Frigefy-FinalProject",
     },
     {
         image: "tinyLink.png",
-        demo: "https://tinylink.onrender.com/urls",
-        name: "Frigefy",
+        demo: "https://tinylink.onrender.com/",
+        name: "TinyLink",
         description:
             "A web app that allows you to store your recipes and ingredients that you have in a fridge and generates a shopping list.",
-        href: "https://github.com/yll9108/Frigefy-FinalProject",
+        href: "https://github.com/yll9108/TinyLink",
+    },
+    {
+        image: "portfolio.png",
+        demo: "https://portfolio-bubble-tea.onrender.com/",
+        name: "Portfolio",
+        description: "Portfolio created by next js.",
+        href: "https://github.com/yll9108/portfolio-bubble-tea",
     },
 ];
