@@ -1,6 +1,7 @@
 ## Hi, welcome to my portfolio!
 
 Tech:
+JavaScript
 Next.js
 Tailwind
 DaisyUI
