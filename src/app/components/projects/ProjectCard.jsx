@@ -19,9 +19,9 @@ function ProjectCard({ image, demo, name, description, href }) {
                                     className="h-7"
                                 />
                             </a>
-                            {/* <a href= "add your link"> */}
-                            <img src="demo.png" className="w-7" />
-                            {/* </a> */}
+                            <a href={demo}>
+                                <img src="demo.png" className="w-7" />
+                            </a>
                         </div>
                     </div>
                     <p>{description}</p>

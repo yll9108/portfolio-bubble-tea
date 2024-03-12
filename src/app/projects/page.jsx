@@ -17,6 +17,7 @@ function Projects() {
                             name={project.name}
                             description={project.description}
                             href={project.href}
+                            demo={project.demo}
                         />
                     ))}
                 </div>
