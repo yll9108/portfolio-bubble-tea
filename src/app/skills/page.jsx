@@ -8,7 +8,7 @@ function Skills() {
     return (
         <>
             <div className="flex flex-col justify-center items-center sm:m-auto">
-                <Title text="Skill" />
+                <Title text="[SKILL]" />
                 {/* <div className="flex flex-row">
                     <div>123</div>
                     <div>123</div>
