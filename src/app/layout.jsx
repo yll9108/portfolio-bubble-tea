@@ -24,10 +24,8 @@ export default function RootLayout({ children }) {
                         <HeaderSmall />
                     </div>
                     {children}
-                    <div className="hidden sm:block">
-                        <div className="sticky top-0">
-                            <Contact />
-                        </div>
+                    <div>
+                        <Contact />
                     </div>
                 </div>
                 {/* </div> */}
