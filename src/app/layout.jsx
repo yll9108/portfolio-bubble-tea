@@ -22,9 +22,9 @@ export default function RootLayout({ children }) {
                         <HeaderSmall />
                     </div>
                     {children}
-                    {/* <div className="hidden sm:block">
+                    <div className="hidden sm:block">
                         <Contact />
-                    </div> */}
+                    </div>
                 </div>
             </body>
         </html>

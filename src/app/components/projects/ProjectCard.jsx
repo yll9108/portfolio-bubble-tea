@@ -16,7 +16,7 @@ function ProjectCard({ image, demo, name, description, href }) {
                             <a href={href}>
                                 <FontAwesomeIcon
                                     icon={faGithub}
-                                    className="w-7"
+                                    className="h-7"
                                 />
                             </a>
                             {/* <a href= "add your link"> */}
