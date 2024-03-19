@@ -89,12 +89,12 @@
     color: white;
     justify-content: center;
     border-radius: 50%;
-    background-color: #9c6545;
+    background-color: transparent;
     position: relative;
     z-index: 1;
     display: flex;
     align-items: center;
-    box-shadow: 0 0.2rem 0 0.2rem #9c6545;
+    /* box-shadow: 0 0.2rem 0 0.2rem #9c6545; */
 }
 
 .pearl1 {

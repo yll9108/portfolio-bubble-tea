@@ -25,7 +25,7 @@ export const projectDetail = [
     },
     {
         image: "portfolio.png",
-        demo: "https://portfolio-bubble-tea.onrender.com/",
+        demo: "https://portfolio-yen-two.vercel.app/",
         name: "Portfolio",
         description: "Portfolio created by next js.",
         href: "https://github.com/yll9108/portfolio-bubble-tea",

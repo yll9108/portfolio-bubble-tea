@@ -6,9 +6,11 @@ function ProjectCard({ image, demo, name, description, href }) {
     return (
         <>
             <div className="card bg-base-100 shadow-xl sm:w-3/4 transform hover:scale-110">
-                <figure>
-                    <img src={image} />
-                </figure>
+                <a href={demo}>
+                    <figure>
+                        <img src={image} />
+                    </figure>
+                </a>
                 <div className="card-body">
                     <div className="flex gap-2">
                         <h2 className="sm:card-title text-lg">{name}</h2>
